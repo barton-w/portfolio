@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Projects from "./components/projects.js"
+import "./css/normalize.css"
+import "./css/skeleton.css"
+import "./css/main.css"
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main container">
+      <h5 id="header">Wes Barton | Portfolio</h5>
+      <div id="profile">
+        <div id="profile-pic"></div>
+        <p>As a software engineer, musician, and outdoor adventurer, I’ve always been inspired by challenge and discovery - to delve into unknown complexity and difficulty, and absorb, master, and solve.  The focus of my career has been continually sharpened toward using new technologies and techniques to build software applications that address the challenges of growing businesses, and empower users.</p>
+      </div>
+    <Projects />
     </div>
-  );
+  )
 }
-
-export default App;

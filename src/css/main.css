@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400,700&display=swap');
+
+:root {
+  --dark: rgb(31,33,38);
+  --light: #f8f8ff;
+}
+
+html {
+  background-color: var(--dark);
+
+}
+
+.main {
+  color: var(--light);
+  font-family: 'Exo 2', sans-serif;
+}
+
+#profile-pic {
+  background-image: url("./images/wes-profile-full.JPG");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 150px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#header {
+  position: fixed;
+  top: 1%;
+  left: 2%;
+  font-size: 24px;
+  margin-bottom: 10%;
+  font-weight: 700;
+}
+
+#profile {
+  margin-top: 15%;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 4%;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
