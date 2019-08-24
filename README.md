@@ -1,6 +1,6 @@
 # A brief showcase of full-stack mini projects
 
-## [Profile page built with React](https://barton-w.github.io/portfolio/)
+## [Portfolio page built with React](https://barton-w.github.io/portfolio/)
 
 ## Projects:
 ### [SQL Sensei](https://barton-w.github.io/sql-sensei/)
