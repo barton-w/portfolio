@@ -15,6 +15,11 @@ html {
   font-family: 'Exo 2', sans-serif;
 }
 
+#profile {
+  margin-top: 13%;
+  margin-bottom: 4%;
+}
+
 #profile-pic {
   background-image: url("./images/wes-profile-full.JPG");
   background-position: center;
@@ -26,17 +31,21 @@ html {
   margin: 0 auto;
 }
 
-#header {
-  position: fixed;
+#main-header {
+  position: absolute;
   top: 1%;
   left: 2%;
   font-size: 24px;
-  margin-bottom: 10%;
+  font-weight: 700;
+}
+
+#header {
+  font-size: 24px;
   font-weight: 700;
 }
 
 #profile {
-  margin-top: 15%;
+  /* margin-top: 15%; */
   text-align: center;
 }
 
@@ -50,4 +59,60 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.project-details {
+  width: 30%;
+}
+
+.project-details > p, h5, h6 {
+  margin: 0;
+}
+
+.project-details > h5 {
+  font-weight: 700;
+}
+
+
+#song-explorer-image {
+  background-image: url("./images/song-explorer.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 250px;
+  margin: 6% auto 8% 0;
+}
+
+#sql-sensei-image {
+  background-image: url("./images/sql-sensei.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 230px;
+  height: 210px;
+  margin: 6% auto 8% 0;
+}
+
+#trail-mix-image {
+  background-image: url("./images/trail-mix.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 250px;
+  margin: 6% auto 8% 0;
+}
+
+a {
+  display: block;
+}
+
+#projects-header {
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+li {
+  font-size: 14px;
 }
